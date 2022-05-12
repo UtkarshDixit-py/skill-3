@@ -21,10 +21,10 @@ function Chat({ user, currentMessages, contacts, setCurrentMessages }) {
         if (userId) {
             const currentUser = contacts[userId - 1];
 
-            // setUsername(currentUser.name);
+            // setUsername(currentUser.name);   
             console.log(currentUser);
 
-            setMessages(currentUser.messages);
+            // setMessages(currentUser.messages);
         }
     }, [userId]);
 
